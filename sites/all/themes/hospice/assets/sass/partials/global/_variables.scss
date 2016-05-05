@@ -1,0 +1,37 @@
+////////////////////////
+// Variables Partials
+//
+// All of your variables should go in this file.
+////////////////////////
+
+@import "breakpoint";
+@import "singularitygs";
+
+
+$phone: 0 767px;
+$tablet-down: 0 979px;
+$tablet: 768px;
+$desktop: 980px;
+$lg-desktop: 1200px;
+
+$grids: 1;
+$grids: add-grid(12 at 768px);
+$grids: add-grid(12 at 980px);
+$gutters: 1/4;
+
+$accent-one: #2C3E50; //blue
+$accent-two: #EE464C; //red
+
+$accent-three: #414042; // drk gray (most of the text)
+$accent-four: #939598; // md gray:  (content lines/sep)
+
+$accent-five: #F1F2F2; // lt gray (footer bg)
+
+$headings: $accent-one;
+
+$mobile-menu-bg: #54925A;
+
+/* Form Colors */
+$error: #E74C3C; // Red
+$valid: #56C939; // Green
+$focus: #aaa; // Yellow

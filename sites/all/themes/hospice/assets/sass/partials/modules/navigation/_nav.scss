@@ -1,0 +1,82 @@
+
+@include breakpoint($desktop) {
+		.mm-menu, #menu-original, .hidden-xs, .mobile-bar {
+		display: none;
+	}
+	nav.main-navigation {
+		height: 116px;
+		padding: 1.2em;
+		position: relative;
+		//border-left: 1px solid #97D398;
+		@include grid-span (8, 5, $gutter: 0);
+	  	
+	  	ul.nice-menu {
+	  		float: right;
+	  		position: static;
+	  		margin-top: 21px;
+	  	}
+	  ul {
+	     padding: 0;
+	     margin: 0;
+	     text-align: left;
+	     z-index: 1000;
+	    li, li.leaf, li.collapsed {
+	      float: left;
+	      list-style: none;
+	      margin: 0;
+	      padding: 0;
+	      position: static;
+	      padding: 12px 15px;
+	    }
+	    ul {
+		    background: #5D9262;
+		    width: 100%;
+		    padding: 0;
+		    top: 136px;
+				right: 0px;
+				text-align: center;
+				li {
+					position: relative;
+					display: inline-block;
+					float: none;
+					padding: 0;
+					&.last {
+						a:after {
+							content: '';
+							padding-left: 0;
+						}
+					}
+					a {
+						font-size: 15px;
+						padding: 15px 10px;
+						padding-right: 0;
+						@include animate-all-on-hover;
+						border-bottom: 0;
+						&:after {
+							content: '.';
+							padding-left: 10px;
+						}
+					}
+				}
+	    }
+	  }
+	  a, span.nolink {
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    color: #fff;
+	    margin: 0;
+	    font-weight: 700;
+	    font-style: normal;
+	    font-size: 100%;
+	    @include animate-all-on-hover;
+	    &:hover {
+		    color: #eee;
+		    @include animate-all-on-hover;
+	    }
+	  }
+	  span.no-link {
+		  cursor: default;
+	  }
+
+  }
+}

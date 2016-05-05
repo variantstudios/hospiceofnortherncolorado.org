@@ -1,0 +1,31 @@
+@import 'partials/global/mixins';
+
+/* Fix the width of the photo share box */
+.addthis_toolbox.addthis_default_style.addthis_32x32_style.addthis_overlay_toolbox {
+	width: 160px !important;
+}
+/* -- Addthis - Social Buttons -- */
+.social-buttons {
+	@include clearfix;
+}
+.addthis_toolbox.addthis_default_style {
+	float: right;
+	width: 400px;
+}
+.addthis_button_facebook_like {
+	width: 85px;
+}
+.addthis_button_tweet {
+	width: 90px;
+} 
+.addthis_googleplus {
+	float: left;
+	width: 70px;
+}
+.addthis_pinterest {
+	float: left;
+	width: 52px;
+}
+.addthis_counter.addthis_pill_style a.addthis_button_expanded {
+	width: 39px!important;
+}

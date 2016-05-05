@@ -1,0 +1,16 @@
+name = Hospice Site Config
+description = Setting up all of the settings and configurations for the Hospice site.
+core = 7.x
+package = Hospice Features
+version = 7.x-1.0
+project = hospice_site_config
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = nice_menus
+features[context][] = menu
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+project path = sites/all/modules/features

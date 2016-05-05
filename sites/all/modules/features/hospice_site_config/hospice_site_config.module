@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Hospice Site Config feature.
+ */
+
+include_once 'hospice_site_config.features.inc';

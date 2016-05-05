@@ -1,0 +1,116 @@
+
+
+body {
+  background: #f1f2f2;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+.page-wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #ffffff;
+  @include clearfix;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    max-width: $tablet;
+    box-shadow: 0px -4px 12px rgba(0,0,0,0.3);
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    max-width: $desktop;
+  }
+  @include breakpoint($lg-desktop) {
+    max-width: $lg-desktop;
+  }
+}
+
+#main {
+  @include grid-span (1, 1);
+  clear: both;
+  @include breakpoint($tablet) {
+	  @include grid-span (8, 1);
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+	  @include grid-span (9, 1);
+  }
+   @include breakpoint($lg-desktop) {
+	   @include grid-span (9, 1);
+  }
+}
+.wrapper--content.no-sidebar #main {
+  @include breakpoint($tablet) {
+	  @include grid-span (12, 1);
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+	  @include grid-span (12, 1);
+  }
+   @include breakpoint($lg-desktop) {
+	   @include grid-span (12, 1);
+  }
+}
+.wrapper--content {
+  padding: 1.2em;
+  /*@include arrow;
+  @include css-arrow(bottom, center, 12px, 0, red);*/
+  @include clearfix;
+}
+
+
+
+#sidebar {
+  @include grid-span (1, 1);
+  padding: 20px 0;
+  clear: both;
+  @include breakpoint($tablet) {
+    @include grid-span (5, 9);
+    clear: both;
+    padding: 40px 0;
+    border-bottom: 0;
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    @include grid-span (3, 10);
+    padding: 40px 0;
+    border-bottom: 0;
+  }
+  @include breakpoint($lg-desktop) {
+	@include grid-span (3, 10);
+    padding: 40px 0;
+    border-bottom: 0;
+  }
+}
+
+
+.node-events.node-teaser {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    .ds-col-one {
+      @include grid-span (3, 1);
+      margin: 2em 0 0.5em;
+    }
+    .ds-col-two {
+      @include grid-span (8.5, 4.5);
+    }
+  }
+}
+
+
+.node-events.view-mode-full {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    .ds-left {
+      @include grid-span (8, 1);
+    }
+    .ds-right {
+      @include grid-span (4, 9);
+      margin: 1.3em 0 0;
+    }
+    .ds-bottom {
+      @include grid-span (12, 1);
+      clear: both;
+    }
+  }
+}
+
+
+/* Global Padding */
+.global-padding, .static-top, .static-bottom, .our-history, .node-events.view-mode-full, .node-events.node-teaser, .bottom-footer, footer, .current_openings, .node-webform {
+  @include global-padding;
+}

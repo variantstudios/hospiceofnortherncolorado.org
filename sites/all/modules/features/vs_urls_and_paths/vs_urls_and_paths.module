@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VS URLs and Paths feature.
+ */
+
+include_once 'vs_urls_and_paths.features.inc';

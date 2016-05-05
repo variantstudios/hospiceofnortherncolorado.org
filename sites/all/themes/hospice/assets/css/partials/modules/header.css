@@ -1,0 +1,63 @@
+/* -- BREAKPOINTS -- */
+/*------------------------------------------ 
+	Header Wrapper
+------------------------------------------*/
+/*------------------------------------------ 
+	Header Logo
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000316}}
+div#wrapper--header {
+  background: rgba(255, 255, 255, 0.9);
+  height: 140px;
+  padding: 20px 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000321}}
+body.front div#wrapper--header {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000325}}
+div.logo-section {
+  width: 200px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000328}}
+div.logo-section h1.site-name a {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("../images/logo.png") no-repeat 0 0;
+  display: block;
+  height: 60px;
+}
+
+/*------------------------------------------ 
+	Mobile Menu Bar
+------------------------------------------*/
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000344}}
+  .mobile-bar {
+    position: absolute;
+    height: 40px;
+    z-index: 222;
+    width: 100%;
+    left: 0;
+  }
+}
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000344}}
+  .mobile-bar {
+    display: none;
+  }
+}
+
+/*------------------------------------------ 
+	Menu Wrap
+------------------------------------------*/
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mikemcq\/Sites\/hospiceofnortherncolorado\.com\/local\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/header\.scss}line{font-family:\0000362}}
+  .menu-wrap {
+    margin-bottom: 40px;
+  }
+}

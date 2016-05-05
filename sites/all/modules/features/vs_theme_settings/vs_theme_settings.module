@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VS Theme Settings feature.
+ */
+
+include_once 'vs_theme_settings.features.inc';

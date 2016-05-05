@@ -1,0 +1,40 @@
+.node-events.node-teaser {
+    .ds-col-one {
+      @include breakpoint($phone) {
+        text-align: center;
+        padding: 0 2em;
+      }
+			img {
+				@include border-radius(50%);
+			}
+    }
+	  h2 {
+		  a, a:link {
+			  color: $subheading-color;
+			  font-size: 100%;
+		  }
+	  }
+	  span.date-display-single {
+			font-weight: 700;
+		}
+  }
+
+.sponsor {
+	margin-bottom: 3em;
+	h6 {
+		margin: 0em 0 1em;
+	}
+	.node-event-sponsors {
+		display: inline-block;
+		vertical-align: top;
+		img {
+			padding: 10px;
+		}
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+			width: 32%;
+		}
+		@include breakpoint($desktop, $no-query: '.no-mq') {
+			width: 25%;
+		}
+	}
+}

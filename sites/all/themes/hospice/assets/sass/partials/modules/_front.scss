@@ -1,0 +1,148 @@
+
+.front {
+  .wrapper--content {
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      padding: 1.2em 1.2em 0;
+    }
+  }
+	.node-page {
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+			text-align: center;
+		}
+	}
+}
+
+.front-left {
+		@include breakpoint($desktop, $no-query: '.no-mq') {
+			@include grid-span(8,1, $gutter: 0);
+			margin-left: -1.2em;
+		}
+	.banner-image {
+		@include breakpoint($phone) {
+			margin: 2em -1.2em 1em;
+		}	
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+			margin-bottom: 2em;
+		}
+		
+		@include clearfix;
+		img {
+			float: left;
+			@include breakpoint($tablet, $no-query: '.no-mq') {
+				width: 50%;
+			}
+		}
+	}
+	.action-btn {
+		padding-top: 0;
+	}
+}
+
+.stat-icons {
+	@include clearfix;
+	@include breakpoint($tablet) {
+		padding: 0 1em;
+	}
+	@include breakpoint($desktop, $no-query: '.no-mq') {
+		padding: 0 3em;
+	}
+	img {
+		padding: .5em .5em 1em;
+		float: left;
+		width: 50%;
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+			padding: 1em;
+		}
+	}
+}
+
+.front-about-text {
+	@include breakpoint($tablet) {
+		padding: 0 1em;
+	}
+	@include breakpoint($desktop, $no-query: '.no-mq') {
+		padding: 0 3em;
+	}
+}
+
+.front-right {
+	text-align: left;
+	background: #fafafa;
+	@include breakpoint($phone) {
+		margin: 2em -1.2em 0;
+	}
+	@include breakpoint($desktop, $no-query: '.no-mq') {
+			@include grid-span(4.4,8.6, $gutter: 0);
+			margin-right: -1.2em;
+		}
+		h2.sub-title {
+    	margin: 0;
+    	padding: .5em 1em;
+    	background: #F2F2F2;
+    	font-weight: 700;
+      font-size: 160%;
+      color: $text-color;
+  	}
+		.view-header {
+			background: $accent-two;
+			h6 {
+				color: #fff;
+				font-family: "ff-market-web", serif;
+				font-weight: normal;
+				margin: 0;
+				padding: 0.8em .5em .6em;
+				font-size: 200%;
+				line-height: 1;
+		}
+	}
+	.view-content {
+		padding: 1em;
+		h2.sub-title {
+  		margin: -0.6em -0.6em 0;
+		}
+		
+		h6 {
+			 
+		}
+	}
+	#block-block-2 {
+
+  	.content {
+    	padding: 0 1.2em 1em;
+  	}
+	}
+}
+
+
+
+#preface {
+	position: relative;
+}
+.home-intro-block {
+	@include breakpoint($phone) {
+		padding: 1em;
+		border-radius: 6px;
+		margin: 1em;
+		border: 1px solid #ddd;
+	}
+	@include breakpoint($tablet, $no-query: '.no-mq') {
+			position: absolute;
+			top: 2em;
+			left: 2em;
+			width: 40%;
+			background: #fff;
+			background: rgba(255, 255, 255, 0.9);
+			padding: 1em;
+			border-radius: 6px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+		}
+		h4 {
+			font-family: "ff-market-web", sans-serif;
+			color: #6FC177;
+			margin: 0;
+			font-size: 170%;
+		}
+		p {
+			margin: 0 0 .8em;
+		}
+}

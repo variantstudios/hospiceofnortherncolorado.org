@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VS Users feature.
+ */
+
+include_once 'vs_users.features.inc';

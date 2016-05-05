@@ -1,0 +1,53 @@
+@import 'partials/global/variables';
+@import 'partials/global/mixins';
+@import 'partials/global/sprites';
+
+
+/*------------------------------------------ 
+	Header Wrapper
+------------------------------------------*/
+#wrapper--header {
+	background: #6FC177;
+	@include clearfix;
+	@include breakpoint($phone) { 
+	 padding: 1em;
+	}
+}
+
+
+
+/*------------------------------------------ 
+	Header Logo
+------------------------------------------*/
+
+.logo-section {
+	@include breakpoint($tablet, $no-query: '.no-mq') {
+		padding: 1.2em;
+	}
+	@include breakpoint($desktop, $no-query: '.no-mq') {
+		@include grid-span (4, 1, $gutter: 0);
+		border-right: 1px solid #52aa52;
+	}
+	h1.site-name {
+		margin: 0 auto;
+		font-size: 100%;
+		text-align: center;
+		a{
+			@include hide-text;
+			@include get-sprite($icons, hospice-logo-white); 
+			margin: 0 auto;
+		}
+	}
+}
+
+
+
+/*------------------------------------------ 
+	Menu Wrap
+------------------------------------------*/
+
+.menu-wrap {
+	@include breakpoints(phone) {
+	  margin-bottom: 40px;
+	}
+}

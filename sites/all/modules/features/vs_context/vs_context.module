@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VS Context feature.
+ */
+
+include_once 'vs_context.features.inc';

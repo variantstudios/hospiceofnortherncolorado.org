@@ -1,0 +1,2079 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000036}}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form Colors */
+/* -- BREAKPOINTS -- */
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000314}}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000319}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\000033}}
+body {
+  background: #f1f2f2;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+body:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\000039}}
+.page-wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+.page-wrap:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .page-wrap {
+  max-width: 768px;
+  box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.3);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .page-wrap {
+  max-width: 980px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\0000327}}
+#main {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq #main {
+  width: 74.57627%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .wrapper--content.no-sidebar #main {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\0000351}}
+.wrapper--content {
+  padding: 1.2em;
+  /*@include arrow;
+  @include css-arrow(bottom, center, 12px, 0, red);*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+.wrapper--content:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\0000360}}
+#sidebar {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding: 20px 0;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq #sidebar {
+  width: 23.72881%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding: 40px 0;
+  border-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\0000385}}
+.no-mq .node-events.node-teaser .ds-col-one {
+  width: 23.72881%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+  margin: 2em 0 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\0000389}}
+.no-mq .node-events.node-teaser .ds-col-two {
+  width: 70.33898%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\0000398}}
+.no-mq .node-events.view-mode-full .ds-left {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\00003101}}
+.no-mq .node-events.view-mode-full .ds-right {
+  width: 32.20339%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin: 1.3em 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/layouts\/_content\.scss}line{font-family:\00003105}}
+.no-mq .node-events.view-mode-full .ds-bottom {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: both;
+}
+
+/* Global Padding */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .global-padding, .no-mq .static-top, .no-mq .static-bottom, .no-mq .our-history, .no-mq .node-events.view-mode-full, .no-mq .node-events.node-teaser, .no-mq .bottom-footer, .no-mq footer, .no-mq .current_openings, .no-mq .node-webform {
+  padding: 1em 5em;
+}
+
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000320}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000328}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000339}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000346}}
+[hidden] {
+  display: none;
+}
+
+/*! normalize.css v2.1.0 | Base | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000313}}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000337}}
+body {
+  margin: 0;
+}
+
+/*! normalize.css v2.1.0 | Links | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_links\.scss}line{font-family:\000039}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_links\.scss}line{font-family:\0000316}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v2.1.0 | Typography | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000313}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000347}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000354}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000366}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000373}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000381}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003100}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003110}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003118}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003140}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003147}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003154}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003158}}
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v2.1.0 | Embedded Content | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_embeds\.scss}line{font-family:\000039}}
+img {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_embeds\.scss}line{font-family:\0000318}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v2.1.0 | Figures | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_figures\.scss}line{font-family:\000039}}
+figure {
+  margin: 0;
+}
+
+/*! normalize.css v2.1.0 | Forms | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000317}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000330}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000349}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000363}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000373}}
+button,
+select {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000390}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003101}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003113}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003126}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003137}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003144}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003152}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/*! normalize.css v2.1.0 | Tables | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_tables\.scss}line{font-family:\000039}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * Variables
+ */
+/*
+ * Base styles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000340}}
+body {
+  color: #6d6e70;
+  font-size: 15px;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  padding: 0px;
+  line-height: 1.6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq body {
+  font-size: 18px;
+}
+
+/*
+ * Typography
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000361}}
+.link, a {
+  color: #24b616;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000365}}
+.link:hover, a:hover, .link:visited:hover, a:visited:hover {
+  color: #30af23;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000369}}
+.link:visited, a:visited {
+  color: #24b616;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000374}}
+.fixed, pre, code {
+  font-family: "Andale Mono", AndaleMono, monospace;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000376}}
+.quiet {
+  font-color: #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000377}}
+.loud, .bold, b, strong {
+  font-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000379}}
+.italic, em {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000380}}
+.bold, b, strong {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000382}}
+.h1, h1, h1 > a, .h2, h2, h2 > a, .h3, h3, h3 > a, .h4, h4, h4 > a, .h5, h5, h5 > a, .h6, h6, h6 > a {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000383}}
+.h1, h1, h1 > a, .h2, h2, h2 > a {
+  line-height: 1.1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000384}}
+.h3, h3, h3 > a, .h4, h4, h4 > a {
+  line-height: 1.3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000385}}
+.h1, h1, h1 > a {
+  font-size: 250%;
+  letter-spacing: 0px;
+  color: #008fa0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000386}}
+.h2, h2, h2 > a {
+  font-size: 180%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000387}}
+.h3, h3, h3 > a {
+  font-size: 160%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000388}}
+.h4, h4, h4 > a {
+  font-size: 145%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000389}}
+.h5, h5, h5 > a {
+  font-size: 130%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000390}}
+.h6, h6, h6 > a {
+  font-size: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000392}}
+.block-margins, p, ul, ol, pre {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000394}}
+.unordered-list, ul {
+  list-style-type: disc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000395}}
+.ordered-list, ol {
+  list-style: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\0000397}}
+a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003102}}
+h1, h1 > a {
+  margin: 1em 0 0.5em;
+  font-weight: 800;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003103}}
+h1.page-title, h1#page-title {
+  margin: 0.3em 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003104}}
+h2, h2 > a {
+  margin: 1em 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003105}}
+h2.sub-title {
+  color: #6fc177;
+  font-weight: 100;
+  margin: 0.1em 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003106}}
+h3, h3 > a {
+  margin: 1em 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003107}}
+h4, h4 > a {
+  margin: 1em 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003108}}
+h5, h5 > a {
+  margin: 1em 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003109}}
+h6, h6 > a {
+  margin: 1em 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003111}}
+.list-title > a {
+  color: #008fa0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003113}}
+.list-title > a:hover {
+  color: #008fa0;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003119}}
+p {
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003122}}
+ul {
+  margin: 1em 0 1em 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003123}}
+ol {
+  margin: 1em 0 1em 3em;
+}
+
+/*
+ * Modifiers
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003133}}
+.float-left {
+  float: left;
+  margin-right: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003134}}
+.float-right {
+  float: right;
+  margin-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003136}}
+.text-left {
+  text-align: left   !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003137}}
+.text-center {
+  text-align: center !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003138}}
+.text-right {
+  text-align: right  !important;
+}
+
+/*
+ * Object definitions
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003145}}
+.content {
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003149}}
+.header-block {
+  font-size: 110%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003152}}
+.header-block.typography h1 {
+  font-size: 400%;
+  margin-top: 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003155}}
+.author-block {
+  border-top: 3px double #cccccc;
+  margin-top: 4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003161}}
+.action-btn {
+  padding: 2em 0 1em;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003164}}
+.action-btn a {
+  background: #fff;
+  border: 2px solid #6fc177;
+  padding: .5em 2em;
+  display: inline-block;
+  color: #6fc177;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003174}}
+.action-btn a:hover {
+  background: #6fc177;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003183}}
+.read-more-link a {
+  color: #6fc177;
+  display: inline-block;
+  font-size: 105%;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: "proxima-nova",sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003191}}
+.read-more-link a:hover {
+  color: #93d099;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003195}}
+.read-more-link a:visited {
+  color: #6fc177;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003203}}
+.donate-btn {
+  margin: -1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003205}}
+.donate-btn a {
+  color: #fff;
+  background: #ee464c;
+  display: block;
+  text-align: center;
+  padding: .5em 0 .4em;
+  margin: 2em 0 0;
+  font-size: 115%;
+  font-weight: 700;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  -ms-border-radius: 0 0 6px 6px;
+  -o-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003215}}
+.donate-btn a:hover {
+  background: #f27579;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003222}}
+input[type="submit"], button[type="submit"], #edit-submit {
+  background: #6fc177;
+  padding: .4em 2.2em .35em;
+  display: inline-block;
+  font-size: 100%;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 35px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: "proxima-nova",sans-serif;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003234}}
+input[type="submit"]:hover, button[type="submit"]:hover, #edit-submit:hover {
+  background: #93d099;
+  color: #fff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003239}}
+input[type="submit"]:visited, button[type="submit"]:visited, #edit-submit:visited {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003253}}
+.flag-outer .flag-action, .flag-outer .flag {
+  color: #6fc177;
+  display: inline-block;
+  font-size: 105%;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: "proxima-nova",sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003261}}
+.flag-outer .flag-action:hover, .flag-outer .flag:hover {
+  color: #93d099;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003265}}
+.flag-outer .flag-action:visited, .flag-outer .flag:visited {
+  color: #6fc177;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003270}}
+.flag-outer .unflag-action {
+  color: #c82d2d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003272}}
+.flag-outer .unflag-action:hover {
+  color: #f03c3c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003275}}
+.flag-outer .unflag-action:visited {
+  color: #c82d2d;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003283}}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003293}}
+.post-date {
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003300}}
+.draggable a.tabledrag-handle {
+  height: auto;
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003303}}
+.draggable a.tabledrag-handle .handle {
+  height: 21px;
+  margin: 0;
+  padding: 0 17px;
+  width: 21px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003312}}
+.label {
+  font-weight: 700;
+  display: inline-block;
+}
+
+/* -- Pager -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003318}}
+.typography .pager, .pager {
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003322}}
+.typography .pager li, .pager li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 .7em;
+  font-family: "proxima-nova",sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003327}}
+.typography .pager li.pager-current, .pager li.pager-current {
+  color: #30af23;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003330}}
+.typography .pager li.pager-ellipsis, .pager li.pager-ellipsis {
+  color: #008fa0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003333}}
+.typography .pager li a, .pager li a {
+  color: #008fa0;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "proxima-nova",sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003343}}
+.half-width-insert {
+  padding: 15px;
+  height: auto !important;
+  width: 50% !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003354}}
+.your-wishlist-print .views-row {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003359}}
+i {
+  margin: 0 10px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003366}}
+.messages p, .messages .element-invisible {
+  margin: 0;
+}
+
+@media \0screen {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/styleguide\/type\/_typography\.scss}line{font-family:\00003371}}
+  img {
+    width: auto;
+  }
+}
+/* Prevent height distortion in IE8. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front .wrapper--content {
+  padding: 1.2em 1.2em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front .node-page {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front-left {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+  margin-left: -1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front-left .banner-image {
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/singularitygs-1\.0\.8\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000341}}
+.front-left .banner-image:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000329}}
+.front-left .banner-image img {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front-left .banner-image img {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000336}}
+.front-left .action-btn {
+  padding-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/singularitygs-1\.0\.8\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000341}}
+.stat-icons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .stat-icons {
+  padding: 0 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000349}}
+.stat-icons img {
+  padding: .5em .5em 1em;
+  float: left;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .stat-icons img {
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front-about-text {
+  padding: 0 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000368}}
+.front-right {
+  text-align: left;
+  background: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .front-right {
+  width: 35.59322%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin-right: -1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000378}}
+.front-right h2.sub-title {
+  margin: 0;
+  padding: .5em 1em;
+  background: #F2F2F2;
+  font-weight: 700;
+  font-size: 160%;
+  color: #6d6e70;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000386}}
+.front-right .view-header {
+  background: #ee464c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000388}}
+.front-right .view-header h6 {
+  color: #fff;
+  font-family: "ff-market-web", serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.8em .5em .6em;
+  font-size: 200%;
+  line-height: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\0000398}}
+.front-right .view-content {
+  padding: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\00003100}}
+.front-right .view-content h2.sub-title {
+  margin: -0.6em -0.6em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\00003110}}
+.front-right #block-block-2 .content {
+  padding: 0 1.2em 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\00003118}}
+#preface {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .home-intro-block {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  width: 40%;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\00003139}}
+.home-intro-block h4 {
+  font-family: "ff-market-web", sans-serif;
+  color: #6FC177;
+  margin: 0;
+  font-size: 170%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_front\.scss}line{font-family:\00003145}}
+.home-intro-block p {
+  margin: 0 0 .8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_slider\.scss}line{font-family:\000031}}
+.royalSlider {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_slider\.scss}line{font-family:\000034}}
+.rsMinW {
+  background: none !important;
+}
+
+/* Form Colors */
+/* -- BREAKPOINTS -- */
+/*------------------------------------------ 
+	Header Wrapper
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_header\.scss}line{font-family:\000039}}
+#wrapper--header {
+  background: #6FC177;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+#wrapper--header:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/*------------------------------------------ 
+	Header Logo
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .logo-section {
+  padding: 1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .logo-section {
+  width: 32.20339%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+  border-right: 1px solid #52aa52;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_header\.scss}line{font-family:\0000331}}
+.logo-section h1.site-name {
+  margin: 0 auto;
+  font-size: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_header\.scss}line{font-family:\0000335}}
+.logo-section h1.site-name a {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background: url('../images/icons.png') 0 -60px no-repeat;
+  height: 93px;
+  width: 292px;
+  margin: 0 auto;
+}
+
+/*------------------------------------------ 
+	Menu Wrap
+------------------------------------------*/
+@media all and (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_header\.scss}line{font-family:\0000349}}
+  .menu-wrap {
+    margin-bottom: 40px;
+  }
+}
+
+/* -- BREAKPOINTS -- */
+/* Form Colors */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\000034}}
+footer {
+  color: #fff;
+  font-size: 90%;
+  padding: 1em;
+  clear: both;
+  	/*@include arrow;
+    @include css-arrow(top, center, 12px, 0, #6FC177);*/
+  background: #6FC177;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq footer {
+  padding: 4em 5em 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000315}}
+footer h2.sub-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 160%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000320}}
+footer p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000323}}
+footer h6 {
+  margin: 0.2em 0 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq footer .footer-testimonial {
+  width: 32.20339%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq footer .locations-footer {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000334}}
+.no-mq footer .locations-footer .content div {
+  float: left;
+  margin-right: 65px;
+}
+
+/* Bottom Footer Styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000347}}
+.bottom-footer {
+  background: #5E9E62;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000350}}
+.bottom-footer p {
+  margin-top: 0;
+  font-size: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .bottom-footer p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/footer\/_footer\.scss}line{font-family:\0000356}}
+.bottom-footer p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .footer-left {
+  width: 49.15254%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .footer-right {
+  text-align: right;
+  width: 49.15254%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/*
+    Mobile Menu Core Style
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000314}}
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000315}}
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000316}}
+.slicknav_menu .slicknav_icon {
+  float: left;
+  margin: 0.188em 0 0 0.438em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000317}}
+.slicknav_menu .slicknav_no-text {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000318}}
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.125em;
+  height: 0.125em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000319}}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.188em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000320}}
+.slicknav_nav {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000322}}
+.slicknav_nav ul,
+.slicknav_nav li {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000323}}
+.slicknav_nav .slicknav_item {
+  display: block;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000324}}
+.slicknav_nav a {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000325}}
+.slicknav_nav .slicknav_item a {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000327}}
+.slicknav_menu:before,
+.slicknav_menu:after {
+  content: " ";
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000328}}
+.slicknav_menu:after {
+  clear: both;
+}
+
+/* IE6/7 support */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000330}}
+.slicknav_menu {
+  *zoom: 1;
+}
+
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000339}}
+.slicknav_menu {
+  font-size: 100%;
+}
+
+/* Button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000343}}
+.slicknav_btn {
+  margin: 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  font-size: 85%;
+}
+
+/* Button Text */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000354}}
+.slicknav_menutxt {
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Lines */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000360}}
+.slicknav_icon-bar {
+  background-color: #f5f5f5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000363}}
+.slicknav_menu {
+  background: #54925a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000366}}
+.slicknav_nav {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000370}}
+.slicknav_nav li {
+  border-bottom: 1px solid #447C4D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000372}}
+.slicknav_nav li:first-child {
+  border-top: 1px solid #447C4D;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000377}}
+.slicknav_nav, .slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000381}}
+.slicknav_nav ul {
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000385}}
+.slicknav_nav .slicknav_item {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  font-size: 95%;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\0000392}}
+.slicknav_nav a, .slicknav_nav a.active {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 95%;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\00003101}}
+.slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\00003105}}
+.slicknav_nav .slicknav_item:hover {
+  background: #6eab74;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\00003109}}
+.slicknav_nav a:hover {
+  background: #6eab74;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\00003112}}
+.slicknav_nav .slicknav_txtnode {
+  margin-left: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/navigation\/_mobile_menu\.scss}line{font-family:\00003116}}
+.slicknav_arrow {
+  margin: 0 0 0 2em;
+  font-size: 50%;
+}
+
+/* -- BREAKPOINTS -- */
+/* Form Colors */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\000037}}
+input[type="text"], input[type="email"], textarea, input[type="password"], input[type="file"], input[type="number"], input[type="search"], input:-webkit-autofill {
+  background-color: #fff;
+  border: 1px solid #dcd9d7;
+  height: auto;
+  padding: 15px 20px;
+  width: 100%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #666;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000321}}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, input[type="password"]:focus, input[type="file"]:focus, input[type="number"]:focus, input[type="search"]:focus, input:-webkit-autofill:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000324}}
+input[type="text"]:active, input[type="email"]:active, textarea:active, input[type="password"]:active, input[type="file"]:active, input[type="number"]:active, input[type="search"]:active, input:-webkit-autofill:active {
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000329}}
+-webkit-autofill {
+  background-color: #fff !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000333}}
+textarea {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px !important;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000340}}
+input[type="text"], input[type="email"], textarea, input[type="password"], input[type="file"], input[type="number"] {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000342}}
+input[type="text"]:active, input[type="text"]:focus, input[type="email"]:active, input[type="email"]:focus, textarea:active, textarea:focus, input[type="password"]:active, input[type="password"]:focus, input[type="file"]:active, input[type="file"]:focus, input[type="number"]:active, input[type="number"]:focus {
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000346}}
+input[type="text"]:active, input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:active, input[type="email"]:hover, input[type="email"]:focus, textarea:active, textarea:hover, textarea:focus, input[type="password"]:active, input[type="password"]:hover, input[type="password"]:focus, input[type="file"]:active, input[type="file"]:hover, input[type="file"]:focus, input[type="number"]:active, input[type="number"]:hover, input[type="number"]:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000354}}
+div.form-item.form-type-radio {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000359}}
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000363}}
+fieldset .fieldset-wrapper {
+  padding-left: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000366}}
+fieldset .fieldset-title {
+  font-weight: 700;
+  font-size: 110%;
+  padding-left: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000372}}
+html.js fieldset.collapsed {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000378}}
+.webform-client-form #edit-actions input {
+  margin-right: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000384}}
+#webform-component-present-last-employer--starting-pay input, #webform-component-present-last-employer--ending-pay input {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000391}}
+.form-item input.error, .form-item textarea.error {
+  border: 0;
+  border: 1px solid #e74c3c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\0000397}}
+.form-item input.valid, .form-item textarea.valid {
+  border: 1px solid #56c939;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003101}}
+.form-item {
+  margin: 1em 0 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003105}}
+span.error, label.error {
+  color: #e74c3c;
+  font-style: italic;
+  font-size: 80%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003119}}
+.not-logged-in.page-user div#block-delta-blocks-tabs {
+  max-width: 700px;
+  margin: 1em auto 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003124}}
+#user-login, #user-pass {
+  max-width: 700px;
+  background: #F3F3F3;
+  padding: 2em;
+  margin: 2em auto;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003131}}
+#user-login .form-item .description, #user-pass .form-item .description {
+  padding-top: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003136}}
+#bboxdonation_BBEmbeddedForm {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003139}}
+.BBFormButtonRow {
+  width: auto !important;
+  text-align: left !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003143}}
+.BBFormButtonRow input[type="submit"], .BBFormButtonRow #bboxdonation_btnSubmit {
+  background: #6fc177 !important;
+  padding: .4em 2.2em .35em;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 35px !important;
+  border: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_forms\.scss}line{font-family:\00003152}}
+.BBFormButtonRow input[type="submit"]:hover, .BBFormButtonRow #bboxdonation_btnSubmit:hover {
+  background: #93d099;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_select\.scss}line{font-family:\000033}}
+.select-list {
+  border: 1px solid #ccc;
+  width: 220px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 95% 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_select\.scss}line{font-family:\0000311}}
+.select-list select {
+  padding: 5px 14px 3px;
+  width: 120%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  font-size: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_select\.scss}line{font-family:\0000322}}
+.select-list select:focus {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/forms\/_select\.scss}line{font-family:\0000327}}
+.webform-datepicker .select-list {
+  width: 130px;
+  background: white url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 90% 50%;
+  margin-right: 10px;
+}
+
+/* Form Colors */
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\000034}}
+.static-middle {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .static-middle {
+  margin: 0 -1.2em;
+  line-height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+.static-middle .layout-2:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000315}}
+.static-middle .layout-2 img {
+  float: left;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .static-middle .layout-2 img {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .text-overlay {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  background: rgba(111, 193, 119, 0.8);
+  color: #FFF;
+  padding: .5em 1.5em;
+  margin: 0 0 0 4.2em;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .text-overlay {
+  margin: 0 0 0 6.2em;
+  width: 43%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .text-overlay p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .our-history {
+  padding: 4em 8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000355}}
+.our-history .views-row {
+  margin-bottom: 50px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000359}}
+.our-history .year {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000362}}
+.our-history h6 {
+  float: left;
+  border-bottom: 1px solid #ccc;
+  font-size: 110%;
+  padding: 0;
+  padding-bottom: 5px;
+  margin: 0;
+  color: #008fa0;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000372}}
+.our-history .connector {
+  position: absolute;
+  background: #ccc;
+  height: 100%;
+  width: 1px;
+  top: 33px;
+  left: 21px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .our-history .connector {
+  top: 37px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000384}}
+.our-history p {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000389}}
+.our-history .milestone {
+  position: relative;
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .our-history .milestone {
+  padding-left: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_content\.scss}line{font-family:\0000399}}
+.our-history .views-row-last .connector:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  height: 10px;
+  float: left;
+  display: block;
+  background: #ccc;
+  width: 10px;
+  border-radius: 50%;
+}
+
+/* -- BREAKPOINTS -- */
+/* Fix the width of the photo share box */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\000034}}
+.addthis_toolbox.addthis_default_style.addthis_32x32_style.addthis_overlay_toolbox {
+  width: 160px !important;
+}
+
+/* -- Addthis - Social Buttons -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_mixins\.scss}line{font-family:\0000350}}
+.social-buttons:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\0000311}}
+.addthis_toolbox.addthis_default_style {
+  float: right;
+  width: 400px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\0000315}}
+.addthis_button_facebook_like {
+  width: 85px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\0000318}}
+.addthis_button_tweet {
+  width: 90px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\0000321}}
+.addthis_googleplus {
+  float: left;
+  width: 70px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\0000325}}
+.addthis_pinterest {
+  float: left;
+  width: 52px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/social\/_addthis\.scss}line{font-family:\0000329}}
+.addthis_counter.addthis_pill_style a.addthis_button_expanded {
+  width: 39px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000036}}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form Colors */
+/* -- BREAKPOINTS -- */
+/* -- BREAKPOINTS -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000314}}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000319}}
+.clearfix:after {
+  clear: both;
+}
+
+/* -- BREAKPOINTS -- */
+/* Form Colors */
+/*------------------------------------------ 
+	DRUPAL Admin Menu
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/drupal\/_drupal\.scss}line{font-family:\0000310}}
+#admin-menu, #admin-menu .dropdown, #admin-menu ul li, #admin-menu a {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: 13px !important;
+  line-height: 1;
+}
+
+/*------------------------------------------ 
+	DRUPAL ADMIN TABS 
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/drupal\/_drupal\.scss}line{font-family:\0000321}}
+#tabs ul.tabs a {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/drupal\/_drupal\.scss}line{font-family:\0000324}}
+ul.primary li a {
+  padding: 5px 10px 1px 10px;
+}
+
+/*------------------------------------------ 
+	DRUPAL Messages
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/drupal\/_drupal\.scss}line{font-family:\0000332}}
+div.messages {
+  background-position: 15px 15px;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+}
+
+/*------------------------------------------ 
+	DRUPAL Contextual Links
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/drupal\/_drupal\.scss}line{font-family:\0000341}}
+ul.contextual-links li a {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+}
+
+/*------------------------------------------ 
+	DRUPAL environment
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/drupal\/_drupal\.scss}line{font-family:\0000350}}
+.environment-switcher-container {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\000037}}
+.node-events.node-teaser .ds-col-one img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\0000312}}
+.node-events.node-teaser h2 a, .node-events.node-teaser h2 a:link {
+  color: #6fc177;
+  font-size: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\0000317}}
+.node-events.node-teaser span.date-display-single {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\0000322}}
+.sponsor {
+  margin-bottom: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\0000324}}
+.sponsor h6 {
+  margin: 0em 0 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\0000327}}
+.sponsor .node-event-sponsors {
+  display: inline-block;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/events\/_events\.scss}line{font-family:\0000330}}
+.sponsor .node-event-sponsors img {
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .sponsor .node-event-sponsors {
+  width: 32%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-2\.0\.0-p481\/gems\/breakpoint-2\.0\.7\/stylesheets\/_breakpoint\.scss}line{font-family:\00003118}}
+.no-mq .sponsor .node-event-sponsors {
+  width: 25%;
+}
+
+/* RESPONSIVE VIDEO */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_video\.scss}line{font-family:\000033}}
+.video-responsive-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/partials\/modules\/_video\.scss}line{font-family:\0000311}}
+.video-responsive-container iframe,
+.video-responsive-container object,
+.video-responsive-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\000039}}
+#preface {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000312}}
+#wrapper--header {
+  background-color: #6FC177;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000316}}
+.mm-menu, #menu-original, .hidden-xs, .mobile-bar {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000319}}
+nav.main-navigation {
+  height: 116px;
+  padding: 1.2em;
+  position: relative;
+  border-left: 1px solid #97D398;
+  width: 66.66667%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000330}}
+nav.main-navigation ul.nice-menu {
+  float: right;
+  position: static;
+  margin-top: 21px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000335}}
+nav.main-navigation ul {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  z-index: 1000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000340}}
+nav.main-navigation ul li, nav.main-navigation ul li.leaf, nav.main-navigation ul li.collapsed {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: static;
+  padding: 12px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000348}}
+nav.main-navigation ul ul {
+  background: #5D9262;
+  width: 100%;
+  padding: 0;
+  top: 136px;
+  right: 0px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000355}}
+nav.main-navigation ul ul li {
+  position: relative;
+  display: inline-block;
+  float: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000361}}
+nav.main-navigation ul ul li.last a:after {
+  content: '';
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000366}}
+nav.main-navigation ul ul li a {
+  font-size: 15px;
+  padding: 15px 10px;
+  padding-right: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000372}}
+nav.main-navigation ul ul li a:after {
+  content: '.';
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000380}}
+nav.main-navigation a, nav.main-navigation span.nolink {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000389}}
+nav.main-navigation a:hover, nav.main-navigation span.nolink:hover {
+  color: #eee;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/hpcnc\/public_html\/sites\/all\/themes\/hospice\/assets\/sass\/no-mq\.scss}line{font-family:\0000394}}
+nav.main-navigation span.no-link {
+  cursor: default;
+}

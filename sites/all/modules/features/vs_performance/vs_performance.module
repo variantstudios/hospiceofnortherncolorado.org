@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VS Performance feature.
+ */
+
+include_once 'vs_performance.features.inc';

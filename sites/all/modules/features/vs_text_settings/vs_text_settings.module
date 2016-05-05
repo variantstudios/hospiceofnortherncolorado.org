@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VS Text Settings feature.
+ */
+
+include_once 'vs_text_settings.features.inc';

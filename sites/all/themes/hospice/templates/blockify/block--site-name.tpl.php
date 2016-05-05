@@ -1,0 +1,1 @@
+<h1 class="site-name"><a href="/" title="<?php print $sitename; ?>" rel="home"><?php print $sitename; ?></a></h1>

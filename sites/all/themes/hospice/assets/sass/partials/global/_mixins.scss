@@ -1,0 +1,188 @@
+////////////////////////
+// Mixins Partials
+//
+// All of your mixins should go in this file.
+
+// font-family: 'Great Vibes', cursive;
+// font-family: 'helvetica', serif;
+
+////////////////////////
+
+@mixin hide-text {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+@mixin body {
+  color: $body;
+  font-family: 'helvetica', serif;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+@mixin heading {
+  color: $accent-one;
+  font-family: 'helvetica', serif;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+@mixin subheading {
+  color: $accent-one;
+  font-family: 'helvetica', serif;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@mixin link {
+  font-family: 'helvetica', serif;
+  color: #691C16;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@mixin clearfix {
+  &:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+  }
+}
+
+@mixin animate-all-on-hover {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+@mixin global-padding {
+  @include breakpoint($tablet) {
+    padding: 1em 3em;
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    padding: 1em 5em;
+  }
+}
+
+
+
+///// ARROWS
+@mixin css-arrow($box-edge         : bottom,
+                 $edge-side        : center,
+                 $arrow-size       : 10px,
+                 $edge-side-offset : 0,
+                 $fill-color       : black,
+                 $border-color     : #fff,
+                 $border-style     : border) {
+
+// initiate internal variables
+  $box-edge-inverse: bottom;
+  $edge-side-pos: $edge-side;
+  $edge-side-pos-value: 0;
+
+// establish inverse variables
+  @if      $box-edge == top    { $box-edge-inverse: bottom; }
+  @else if $box-edge == right  { $box-edge-inverse: left;   }
+  @else if $box-edge == bottom { $box-edge-inverse: top;    }
+  @else if $box-edge == left   { $box-edge-inverse: right;  }
+
+// calculate remaining internal variables
+  @if ($box-edge == 'top' or
+       $box-edge == 'bottom') {
+    @if $edge-side == center {
+      $edge-side-pos: left;
+      $edge-side-pos-value: 50%;
+      $edge-side-offset: (-$arrow-size);
+    }
+  }
+  @if ($box-edge == 'left' or
+       $box-edge == 'right') {
+    @if $edge-side == center {
+      $edge-side-pos: top;
+      $edge-side-pos-value: 50%;
+      $edge-side-offset: (-$arrow-size);
+    }
+  }
+
+  &:after, &:before {
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: solid rgba(#fff, 0);
+  }
+
+  &:after  {
+    border-color: rgba(#fff, 0);
+    border-width: $arrow-size - 1;
+    #{$box-edge}: (-$arrow-size) - $arrow-size + 2;
+    border-#{$box-edge-inverse}-color: $fill-color;
+    #{$edge-side-pos}: $edge-side-pos-value;
+    margin-#{$edge-side-pos}: $edge-side-offset + 1;
+  }
+
+  @if $border-style == flag {
+    @include border-radius(2px);
+    &:before {
+      border-color: rgba(#fff, 0);
+      border-width: $arrow-size - 1;
+      #{$box-edge}: (-$arrow-size) - $arrow-size + 2;
+      border-#{$box-edge-inverse}-color: $border-color;
+      #{$edge-side-pos}: $edge-side-pos-value;
+      margin-#{$edge-side-pos}: $edge-side-offset + 2;
+    }
+  } @else {
+    &:before {
+      border-color: rgba(#fff, 0);
+      border-width: $arrow-size;
+      #{$box-edge}: (-$arrow-size) - $arrow-size;
+      border-#{$box-edge-inverse}-color: $border-color;
+      #{$edge-side-pos}: $edge-side-pos-value;
+      margin-#{$edge-side-pos}: $edge-side-offset;
+    }
+  }
+}
+
+
+
+@mixin arrow($arrow-color : #fff) {
+  position: relative;
+  float: left;
+  background: $arrow-color;
+}
+
+
+
+
+/* -- BREAKPOINTS -- */
+@mixin breakpoints($point) {
+  @if $point == phone {
+    @media all and (max-width: 760px) { @content; }
+  }
+  @else if $point == tablet-down {
+    @media all and (max-width: 979px) { @content; }
+  }
+  @else if $point == tablet {
+    @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) { @content; }
+  }
+  @else if $point == desktop {
+    @media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape) { @content; }
+  }
+  @else if $point == lg-desktop {
+    @media all and (min-width: 1220px)  { @content; }
+  }
+}
+
+
+
